@@ -46,12 +46,12 @@ nav {
 }
 
 a {
-  color: #B00075; /* Softer deep pink for contrast */
+  color: blue; /* Softer deep pink for contrast */
   text-decoration: none;
 }
 
 a:hover {
-  color: #E48ABF; /* Lighter pink hover effect */
+  color: blue; /* Lighter pink hover effect */
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: #F7C4D9;
@@ -88,7 +88,7 @@ a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: #B00075;
+  background-color: blue;
   transition: all 0.3 ease-in-out;
 }
 
@@ -96,7 +96,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: #FFE4E9;
+  background-color: blueviolet;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -230,7 +230,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: #B00075 0.1rem solid;
+  border: blueviolet 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -240,22 +240,22 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: #B00075;
+  background: blueviolet;
   color: white;
 }
 
 .btn-color-1:hover {
-  background: #E48ABF;
+  background: darkblue;
 }
 
 .btn-color-2 {
   background: none;
-  color: #B00075;
+  color: blueviolet;
 }
 
 .btn-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
-  background: #FFE4E9;
+  background: cyan;
 }
 
 .btn-container {
@@ -322,7 +322,7 @@ section {
 }
 
 .experience-sub-title {
-  color: #B00075;
+  color: purple;
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -394,7 +394,7 @@ article .icon {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: #B00075 0.1rem solid;
+  border: blue 0.1rem solid;
   border-color: rgb(163, 163, 163);
   background: #FFE4E9;
   margin: 2rem auto;
@@ -535,5 +535,45 @@ footer p {
       text-align: justify;
     }
   }
-
+  body {
+    background-color: #E0F7FA; /* Light blue background */
+    color: #4A4A4A; /* Soft dark gray for readability */
+  }
+  
+  .menu-links {
+    background-color: #E0F7FA;
+  }
+  
+  .contact-info-upper-container {
+    background: #E0F7FA;
+  }
+  
+  a {
+    color: #0077B6; /* Deep blue for contrast */
+  }
+  
+  a:hover {
+    color: #00A9E0; /* Lighter blue hover effect */
+    text-decoration-color: #A7D4E9;
+  }
+  
+  .btn-color-1,
+  .btn-color-2 {
+    border: #0077B6 0.1rem solid;
+  }
+  
+  .btn-color-1,
+  .btn-color-2:hover {
+    background: #0077B6;
+    color: white;
+  }
+  
+  .btn-color-1:hover {
+    background: #00A9E0;
+  }
+  
+  .btn-color-2:hover {
+    background: #E0F7FA;
+  }
+  
   
