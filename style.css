@@ -250,12 +250,12 @@ section {
 
 .btn-color-2 {
   background: none;
-  color: blueviolet;
+  color: darkblue;
 }
 
 .btn-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
-  background: cyan;
+  background: white;
 }
 
 .btn-container {
