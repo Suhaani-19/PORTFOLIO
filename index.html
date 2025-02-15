@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">John Doe</div>
+        <div class="logo">Suhaani Garg</div>
         <div>
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
@@ -19,7 +19,22 @@
         </div>
     </nav>
 
-    
+    <nav id="hamburger-nav">
+        <div class="logo">Suhaani Garg</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
     <script src="script.js"></script>
 </body>
 </html>
